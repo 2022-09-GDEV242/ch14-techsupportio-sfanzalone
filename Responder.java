@@ -69,66 +69,66 @@ public class Responder
      */
     private void fillResponseMap()
     {
-        responseMap.put("crash", "\n" + 
+        responseMap.put("crash", "\n" +
                         "Well, it never crashes on our system." +
                         "  It must have something to do with your system." +
-                        "Tell me more about your configuration.\n");
-        responseMap.put("crashes\n", 
-                        "\nWell, it never crashes on our system." +
-                        "It must have something to do with your system." +
-                        "  Tell me more about your configuration.\n");
-        responseMap.put("slow\n", 
-                        "\nI think this has to do with your hardware." +
+                        "  Tell me more about your configuration." + "\n");
+        responseMap.put("crashes", "\n" +
+                        "Well, it never crashes on our system." +
+                        "  It must have something to do with your system." +
+                        "  Tell me more about your configuration." + "\n");
+        responseMap.put("slow", "\n" +
+                        "I think this has to do with your hardware." +
                         "Upgrading your processor should solve all " +
                         "performance problems. Have you got a " +
-                        "problem with our software?\n");
-        responseMap.put("performance\n", 
-                        "\nPerformance was quite adequate in all our tests." +
+                        "problem with our software?" + "\n");
+        responseMap.put("performance", "\n" +
+                        "Performance was quite adequate in all our tests." +
                         "  Are you running any other processes in " +
-                        "the background?\n");
-        responseMap.put("bug\n", 
-                        "\nWell, you know, all software has some bugs." +
+                        "the background?" + "\n");
+        responseMap.put("bug", "\n" +
+                        "Well, you know, all software has some bugs." +
                         "  But our software engineers are working very " +
                         "hard to fix them. Can you describe the problem " +
-                        "a bit further?\n");
-        responseMap.put("buggy\n", 
-                        "\nWell, you know, all software has some bugs." +
+                        "a bit further?" + "\n");
+        responseMap.put("buggy", "\n" +
+                        "Well, you know, all software has some bugs." +
                         "  But our software engineers are working very " +
                         "hard to fix them. Can you describe the problem " +
-                        "a bit further?\n");
-        responseMap.put("windows\n", 
-                        "\nThis is a known bug to do with the Windows " +
+                        "a bit further?" + "\n");
+        responseMap.put("windows", "\n" +
+                        "This is a known bug to do with the Windows " +
                         "operating system.  Please report it to Microsoft." +
-                        "  There is nothing we can do about this.\n");
-        responseMap.put("macintosh\n", 
+                        "  There is nothing we can do about this." + "\n");
+        responseMap.put("macintosh", "\n" +
                         "This is a known bug to do with the Mac " +
                         "operating system.  Please report it to Apple." +
-                        "  There is nothing we can do about this.\n");
-        responseMap.put("expensive\n", 
-                        "\nThe cost of our product is quite competitive." +
+                        "  There is nothing we can do about this." + "\n");
+        responseMap.put("expensive", "\n" +
+                        "The cost of our product is quite competitive." +
                         "Have you looked around and really compared our " +
-                        "features?\n");
-        responseMap.put("installation\n", 
-                        "\nThe installation is really quite straight " +
+                        "features?" + "\n");
+        responseMap.put("installation", "\n" +
+                        "The installation is really quite straight " +
                         "forward.  We have tons of wizards that do all " +
                         "the work for you. Have you read the " +
-                        "installation instructions?\n");
-        responseMap.put("memory\n", 
-                        "\nIf you read the system requirements carefully, " +
+                        "installation instructions?" + "\n");
+        responseMap.put("memory", "\n" +
+                        "If you read the system requirements carefully, " +
                         "you will see that the specified memory " +
                         "requirements are 1.5 giga byte.   You really " +
                         "should upgrade your memory.  Anything else you " +
-                        "want to know?\n");
-        responseMap.put("linux\n", 
-                        "\nWe take Linux support very seriously." +
+                        "want to know?" + "\n");
+        responseMap.put("linux", "\n" +
+                        "We take Linux support very seriously." +
                         "  But there are some problems.  Most have " +
                         "to do with incompatible glibc versions." +
-                        "  Can you be a bit more precise?\n");
-        responseMap.put("bluej\n", 
-                        "\nAhhh, BlueJ, yes. We tried to buy out those" +
+                        "  Can you be a bit more precise?" + "\n");
+        responseMap.put("bluej", "\n" +
+                        "Ahhh, BlueJ, yes. We tried to buy out those" +
                         " guys long ago, but they simply won't sell..." +
                         "  Stubborn people they are. Nothing we can " +
-                        "do about it, I'm afraid.\n");
+                        "do about it, I'm afraid." + "\n");
     }
 
     /**
