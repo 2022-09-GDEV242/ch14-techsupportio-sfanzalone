@@ -11,8 +11,8 @@ import java.util.HashSet;
  * It contains a loop that repeatedly reads input and generates
  * output until the users wants to leave.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Salvatore Anzalone
+ * @version 11/21/2022
  */
 public class SupportSystem
 {
@@ -60,8 +60,12 @@ public class SupportSystem
         System.out.println("Welcome to the DodgySoft Technical Support System.");
         System.out.println();
         System.out.println("Please tell us about your problem.");
-        System.out.println("We will assist you with any problem you might have.");
+        System.out.println();
+        System.out.println("We will assist you with any problem you might" +
+                            " have.");
+        System.out.println();
         System.out.println("Please type 'bye' to exit our system.");
+        System.out.println();
     }
 
     /**
@@ -69,6 +73,7 @@ public class SupportSystem
      */
     private void printGoodbye()
     {
+        System.out.println();
         System.out.println("Nice talking to you. Bye...");
     }
 }
