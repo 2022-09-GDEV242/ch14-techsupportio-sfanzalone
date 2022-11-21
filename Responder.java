@@ -69,8 +69,8 @@ public class Responder
      */
     private void fillResponseMap()
     {
-        responseMap.put("crash\n", 
-                        "\nWell, it never crashes on our system." +
+        responseMap.put("crash", "\n" + 
+                        "Well, it never crashes on our system." +
                         "  It must have something to do with your system." +
                         "Tell me more about your configuration.\n");
         responseMap.put("crashes\n", 
