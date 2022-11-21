@@ -69,29 +69,18 @@ public class Responder
      */
     private void fillResponseMap()
     {
-        responseMap.put("crash", "\n" +
+        responseMap.put("crash, crashes", "\n" +
                         "Well, it never crashes on our system." +
                         "  It must have something to do with your system." +
                         "  Tell me more about your configuration." + "\n");
-        responseMap.put("crashes", "\n" +
-                        "Well, it never crashes on our system." +
-                        "  It must have something to do with your system." +
-                        "  Tell me more about your configuration." + "\n");
-        responseMap.put("slow", "\n" +
+        responseMap.put("slow, performance", "\n" +
                         "I think this has to do with your hardware." +
-                        "Upgrading your processor should solve all " +
+                        "  Upgrading your processor should solve all " +
                         "performance problems. Have you got a " +
-                        "problem with our software?" + "\n");
-        responseMap.put("performance", "\n" +
-                        "Performance was quite adequate in all our tests." +
-                        "  Are you running any other processes in " +
-                        "the background?" + "\n");
-        responseMap.put("bug", "\n" +
-                        "Well, you know, all software has some bugs." +
-                        "  But our software engineers are working very " +
-                        "hard to fix them. Can you describe the problem " +
-                        "a bit further?" + "\n");
-        responseMap.put("buggy", "\n" +
+                        "problem with our software?" + 
+                        "  If so, then are you running any " +
+                        "other processes in the background?" + "\n");
+        responseMap.put("bug, buggy", "\n" +
                         "Well, you know, all software has some bugs." +
                         "  But our software engineers are working very " +
                         "hard to fix them. Can you describe the problem " +
